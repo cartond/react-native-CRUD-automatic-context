@@ -29,7 +29,19 @@ const IndexScreen = ({ navigation }) => {
   );
 }
 
+IndexScreen.navigationOptions = ({ navigation }) => {
+  return {
+    headerRight: <TouchableOpacity onPress={() => navigation.navigate('Create')}>
+      <Feather name="plus" style={styles.headerIcon } />
+    </TouchableOpacity>
+  };
+};
+
 const styles = StyleSheet.create({
+  headerIcon: {
+    fontSize: 30,
+    paddingRight: 10
+  },
   row:{
     flexDirection:'row',
     justifyContent: 'space-between',
