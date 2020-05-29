@@ -24,7 +24,7 @@ const BlogPostForm = ({ initialValues, onSubmit }) => {
 
       <Button 
         title="Save Blog Post"
-        onPress={() => onSubmit(title, content)}
+        onPress={() => onSubmit(title, content);}
       />
     </View>
   )
