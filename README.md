@@ -1,5 +1,6 @@
 Automating context/provider creation for an app using CRUD. The goal is to avoid duplicate code for CRUD actions that will end up being the same or very similar. 
 
+Local DB: https://github.com/cartond/json-server-blogposts
 
 See `src/context/createDataContext.js` for source
 
